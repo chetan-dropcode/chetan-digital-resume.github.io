@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chetan Prajapati - Digital Resume</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; color: #333; }
+        .header-section { background-color: #2c3e50; color: white; padding: 3rem 0; text-align: center; }
+        .header-section h1 { font-weight: 700; margin-bottom: 0.5rem; }
+        .contact-info a { color: #18bc9c; text-decoration: none; margin: 0 10px; }
+        .contact-info a:hover { text-decoration: underline; }
+        .section-title { border-bottom: 2px solid #18bc9c; padding-bottom: 0.5rem; margin-bottom: 1.5rem; color: #2c3e50; font-weight: 600; }
+        .card { border: none; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 1.5rem; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); }
+        .skill-badge { background-color: #e9ecef; color: #495057; font-size: 0.9rem; margin: 0.2rem; padding: 0.5rem 1rem; border-radius: 20px; display: inline-block; }
+        .exp-date { color: #6c757d; font-size: 0.9rem; font-weight: 500; }
+        .project-link { color: #18bc9c; font-weight: 600; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header-section">
+        <div class="container">
+            <h1>Chetan Prajapati</h1>
+            <p class="lead">Python Full Stack Developer</p>
+            <div class="contact-info mt-3">
+                <span><i class="fas fa-map-marker-alt"></i> Virar (East), Mumbai</span> | 
+                <a href="mailto:chetanprajapati1070@gmail.com"><i class="fas fa-envelope"></i> chetanprajapati1070@gmail.com</a> |
+                <span><i class="fas fa-phone"></i> 9604030646 / 7021183835</span>
+            </div>
+            <div class="contact-info mt-2">
+                <a href="https://github.com/chetan-dropcode/learntocode" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/chetan-prajapati-58238a183" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container my-5">
+        
+        <!-- Professional Summary -->
+        <section class="mb-5">
+            <h2 class="section-title"><i class="fas fa-user-circle"></i> Professional Summary</h2>
+            <div class="card card-body">
+                <p>Having 4.10 years of hands-on experience working as a Python Full Stack Developer. Involved in all aspects of the Software Development Life Cycle (SDLC) - Analysis, Design, Development, Testing, and Maintenance. Self-motivated, quick learner, and willing to adapt to new challenges.</p>
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="mb-5">
+            <h2 class="section-title"><i class="fas fa-code"></i> Technical Skills</h2>
+            <div class="card card-body">
+                <div class="mb-3"><strong>Programming:</strong> <span class="skill-badge">Python</span></div>
+                <div class="mb-3"><strong>Frameworks:</strong> <span class="skill-badge">Django</span> <span class="skill-badge">Tkinter</span></div>
+                <div class="mb-3"><strong>Web Technologies:</strong> <span class="skill-badge">HTML</span> <span class="skill-badge">CSS</span> <span class="skill-badge">Bootstrap</span> <span class="skill-badge">JavaScript</span></div>
+                <div class="mb-3"><strong>Databases:</strong> <span class="skill-badge">MySQL</span> <span class="skill-badge">Oracle</span></div>
+                <div><strong>Tools & OS:</strong> <span class="skill-badge">Linux (Ubuntu)</span> <span class="skill-badge">Windows</span> <span class="skill-badge">Netbeans</span> <span class="skill-badge">PyCharm</span> <span class="skill-badge">VS Code</span></div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="mb-5">
+            <h2 class="section-title"><i class="fas fa-briefcase"></i> Professional Experience</h2>
+            
+            <div class="card card-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h5 class="mb-0">PPFAS | Python Developer - Workflow Automation & Internal Tools</h5>
+                    <span class="exp-date">July 2023 - Till Date</span>
+                </div>
+                <ul>
+                    <li><strong>Workflow Automation:</strong> Converted manual processes into automated desktop utilities handling redemptions, refunds, expenses, and AUM checking.</li>
+                    <li><strong>Full-Stack Web Apps:</strong> Built internal portals using Django and REST APIs, including an HR Portal and a Feedback Vault dashboard.</li>
+                    <li><strong>Data Engineering & APIs:</strong> Fetched data via Shareplex Python API scripts and pushed to Redis endpoints, optimizing data flow for the SelfInvest web app.</li>
+                    <li><strong>Dashboard & Reporting:</strong> Built scheduling logic for Sales Dashboards and integrated chatbots/Telegram bots.</li>
+                    <li><strong>Customer Data Management:</strong> Built CDMS using Pandas and Tkinter for segmenting customer data, packaged as an executable file.</li>
+                </ul>
+            </div>
+
+            <div class="card card-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h5 class="mb-0">Tata Consultancy Services (TCS)</h5>
+                    <span class="exp-date">April 2021 - July 2023</span>
+                </div>
+                <ul>
+                    <li>Involved in the development of a Standalone Application using Python used to conduct Secured Proctored Assessments on Linux and Windows platforms.</li>
+                    <li>Developed APIs using Falcon for performing various system-related operations on the client machine.</li>
+                </ul>
+            </div>
+
+            <div class="card card-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h5 class="mb-0">Zenberry Digitals</h5>
+                    <span class="exp-date">Dec 2020 - March 2021</span>
+                </div>
+                <ul>
+                    <li>Developed web pages using HTML, CSS, Bootstrap, and JavaScript to enhance functionality and user experience.</li>
+                    <li>Edited existing code to improve browser compatibility, added animations, and ensured mobile responsiveness.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="mb-5">
+            <h2 class="section-title"><i class="fas fa-project-diagram"></i> Key Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h5>E-commerce Website (Django)</h5>
+                        <p>Features include Email authentication, user roles, variations, admin-honeypot, reviews/ratings, dashboard, and Razorpay Payment Gateway.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h5>Chatbot (Python)</h5>
+                        <p>An AI software built to simulate conversation and provide detailed information about the Electronic and Telecommunication Department.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="card card-body h-100">
+                        <h5>Feedback Vault</h5>
+                        <p>Admin panel capturing feedback from a React Native tablet app and email footers into a central analytical dashboard.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="card card-body h-100">
+                        <h5>HR Portal</h5>
+                        <p>Comprehensive system featuring leave management, document workflows, user directories, and role-based logins (User, Manager, HR).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-5">
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+            <div class="card card-body">
+                <p><strong>Bachelor of Engineering in (EXTC)</strong> | Theem College of Engineering, Boisar (2020)</p>
+                <p><strong>Higher Secondary Certificate (H.S.C)</strong> | Viva College, Virar (W) (2016)</p>
+                <p class="mb-0"><strong>Secondary School Certificate (S.S.C)</strong> | N.G.Vartak School, Virar (E) (2014)</p>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
