@@ -308,6 +308,18 @@
     transition: border-color 0.2s;
   }
 
+  .certificate-link {
+    display: inline-block;
+    /* margin-top: 12px; */
+    font-family: 'DM Mono', monospace;
+    font-size: 0.68rem;
+    color: var(--accent);
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+
   .project-link:hover { border-color: var(--accent); }
 
   /* Education */
@@ -599,7 +611,13 @@
   <section>
     <div class="section-label">Certifications & Achievements</div>
     <div class="badge-list">
-      <div class="badge"><div class="badge-dot"></div> Python & Django Full Stack Web Developer Bootcamp — Udemy</div>
+      <div class="badge">
+        <div class="badge-dot"></div>
+        Python & Django Full Stack Web Developer Bootcamp — Udemy
+        <div>
+            <a href="https://www.udemy.com/certificate/UC-22317a07-7c33-4625-b763-dce0d1a7c542/" target="_blank" class="edu-year">↗ View Certificate</a>
+        </div>
+      </div>
       <!-- <div class="badge"><div class="badge-dot"></div> Winner — Handwriting Competition & Carom Competition</div>
       <div class="badge"><div class="badge-dot"></div> 2nd Place — Martial Arts</div>
       <div class="badge"><div class="badge-dot"></div> 3rd Rank in 2nd Year & Topper in 3rd Year of Engineering</div> -->
